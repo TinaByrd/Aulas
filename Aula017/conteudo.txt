@@ -1,0 +1,27 @@
+[Cabeçalho]
+Petshop Pequenos Amigos
+
+[IMAGEM]
+
+[MENU]
+Home
+Produtos
+Contato
+
+Sobre a Petshop Pequenos Amigos
+Localizada no centro da cidade a Petshop Pequenos Amigostraz para o mercado o que há de melhor para o seu pet. Fundada em 2020, a Petshop já é destaque na cidade e conquista novos clientes a cada dia.
+Nossa missão é: "Proporcionar conforto e atenção aos nossos pequenos amigos".
+Oferecemos profissionais experientes e super atenciosos. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+
+Benefícios
+
+[LISTA]
+            
+Atendimento aos Clientes
+Espaço diferenciado
+Localização
+Profissionais Qualificados
+
+[IMAGEM]
+
+Petshop Pequenos Amigos

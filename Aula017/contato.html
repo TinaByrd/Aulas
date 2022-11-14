@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="pets.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Petshop Pequenos Amigos</h1>
+        <div class="caixa">
+            <img src="pets.jpg" alt="Pets">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Produtos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="inome">Nome</label> <!--Etiqueta-->
+            <input type="text" name="nome" id="inome" class="padrao"
+            required>
+            <label for="iemail">E-mail</label> <!--associação criada através do id-->
+            <input type="email" name="email" id="iemail" 
+            placeholder="seuemail@dominio.com" class="padrao" required> <!-- placeholder acessibilidade, dá dica-->
+            <label for="itelefone">Telefone</label>
+            <input type="tel" name="telefone" id="itelefone"
+            placeholder="(XX) 12345-1234" class="padrao" required> <!--type tel ja traz teclado de número no smartphone; required torna obrigatório-->
+            <label for="imensagem">Mensagem</label>
+            <textarea name="mensagem" id="imensagem" 
+            cols="50" rows="10" class=padrao required></textarea> <!--tag já vem com os parâmetros para definir coluns e linhas/espeço a ser ocupado-->
+
+            <fieldset class="radio">
+                <legend>Como prefere o nosso contato?</legend> <!--Usamos o radio para o usuário poder selecionar-->
+                <label for="radio-email"> <input type="radio" 
+                name="contato" id="radio-email" class="input-radio">E-mail</label>
+               
+                <label for="radio-telefone"><input type="radio" 
+                name="contato" id="radio-telefone" class="input-radio">Telefone</label>
+                
+                <label for="radio-wpp"><input type="radio" name="contato"
+                id="radio-wpp" class="input-radio">Whatsapp</label>
+                <!--nomeia todos iguais para o navegador entender que é o mesmo dado - eleciona só uma bolinha-->
+                
+            </fieldset> <!--agrupa as opções itens-->
+            
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend> <!--Select abre uma lista de opções-->
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset> <br>
+
+            <!--Situação de sim ou não: usa checkbox-->
+            <label class="checkbox" for="inovidades"><input type="checkbox"
+            name="novidades" id="inovidades" checked> Gostaria <!--cjeck vem marcado-->
+            de receber nossas novidades por e-mail?</label><br>
+            
+
+            <!--para enviar o formulário e limpar tudo que foi inserido-->
+            <input type="submit" value="Enviar" class="botao enviar"> 
+            <input type="reset" value="Limpar" class="botao limpar" >
+        </form>
+    </main>
+    <footer>
+        <p>Petshop Pequenos Amigos</p>
+    </footer>
+</body>
+</html>
