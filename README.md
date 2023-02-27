@@ -1,2 +1,2 @@
-# Aulas
- what I'm doing in my classes
+# Projeto Petsshop
+ Desenvolvimento em HTML de site para petshop
